@@ -1,5 +1,4 @@
 body {
-  body {
     margin: 0px;
 }
  
@@ -18,6 +17,10 @@ body {
     background-image: -o-linear-gradient(45deg, black 25%, transparent 25%, transparent 75%, black 75%, black), -o-linear-gradient(45deg, black 25%, transparent 25%, transparent 75%, black 75%, black);
     background-image: linear-gradient(45deg, black 25%, transparent 25%, transparent 75%, black 75%, black), linear-gradient(45deg, black 25%, transparent 25%, transparent 75%, black 75%, black);
 }
+body {
+  background-image: url("plants.jpg");
+  background-size: cover;
+  font-family: Arial, sans-serif;
 }
 
 .container {
