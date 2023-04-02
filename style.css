@@ -1,10 +1,11 @@
 body {
-  background-color: #f1f1f1;
+  background-image: url("plants.jpg");
+  background-size: cover;
   font-family: Arial, sans-serif;
 }
 
 .container {
-  background-color: #fff;
+  background-color: rgba(255, 255, 255, 0.8);
   border-radius: 5px;
   box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
   margin: 100px auto;
@@ -23,22 +24,4 @@ p {
   color: #666;
   font-size: 18px;
   margin-bottom: 30px;
-}
-
-input[type=email] {
-  border-radius: 5px;
-  border: none;
-  font-size: 16px;
-  padding: 10px;
-  width: 70%;
-}
-
-button[type=submit] {
-  background-color: #333;
-  border-radius: 5px;
-  border: none;
-  color: #fff;
-  font-size: 16px;
-  padding: 10px;
-  width: 28%;
 }
